@@ -1,9 +1,10 @@
 /* eslint-disable prettier/prettier */
 import { Module } from '@nestjs/common';
+import { TaskModule } from './task/task.module';
 // import { TaskModule } from './task/task.module';
 
 @Module({
-  imports: [],
+  imports: [TaskModule],
   controllers: [],
   providers: [],
 })
